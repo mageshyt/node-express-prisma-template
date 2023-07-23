@@ -6,7 +6,6 @@
   "scripts": {
     "dev": "nodemon api/server.ts",
     "start": "vercel dev",
-    "build": "rimraf dist && tsc",
     "deploy": "vercel deploy --prod"
   },
   "keywords": [],
